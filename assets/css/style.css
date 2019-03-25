@@ -1,0 +1,76 @@
+body {
+    background: url("../img/bg.png") no-repeat;
+    margin: 0 auto;
+}
+
+/* padding-top › Privremeno dok nema headera  */
+div.padding-top { /* padding-top › Privremeno dok nema headera */
+    margin: 200px auto;
+}
+/* padding-top › Privremeno dok nema headera */
+
+.login-form {
+    width: 30%;
+    margin: 0 auto;
+    background-color: #242c6683;
+    padding: 30px;
+    border-radius: 5px;
+    top: 200px;
+    position: relative;
+    color: #f1f1f1; 
+}
+.login-form input {
+    padding-left: 30px;
+}
+.login-info {
+    text-align: center;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.login-info > img {
+    padding: 10px;
+}
+.login-info > small {
+    display: block;
+}
+.login-form input, .login-form input:focus {
+    background-color: #38383893;
+    border: 0;
+    color: #f1f1f1;
+    border-radius: 50px !important;
+}
+.login-form input.email, .login-form input.username {
+    background-image: url("../img/icons/user.png");
+    background-attachment: scroll;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+.login-form input.password {
+    background-image: url("../img/icons/password.png");
+    background-attachment: scroll;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+.btn-custom {
+    background-color: #832a8c;
+    border-radius: 50px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    color: #f1f1f1;
+}
+.btn-custom:hover {
+    background-color: #6e2b75;
+}
+div#footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(30, 127, 253);
+    position: absolute;
+    bottom: 0;
+    padding: 0 10px;
+    text-align: center;
+}
+span.copyright {
+    font-size: 10px;
+    color: #fff;
+}
